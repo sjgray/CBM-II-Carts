@@ -1,0 +1,24 @@
+CBM-II 256K SET - For use with CBM-II ROM CART or CBM-II RAM+ROM CART
+===============
+
+Filename: cbm2cart-01.bin
+Date: 2025-04-25
+
+* To enable cartridge:
+       ROM CART....: set DIP Switch #4 to ON (1).
+       RAM+ROM CART: set DIP Switch #6 to ON (1).
+
+* DIP Switches 1 to 3 select the SET NUMBER
+* SET switches are inverted, so ON=0, OFF=1 (as line is pulled HI)
+
+SET  DIP SLOT 0               SLOT 1               SLOT 2		AUX SLOT 
+NUM  321 $2000-$3FFF          $4000-$5FFF          $6000-$7FFF		$1000 or $C000
+---- --- -------------------- -------------------- -------------------- --------------
+00   111 PET Emulator         PET Emulator         PET Emulator         (empty)
+01   110 Diagnostics          (empty)              (empty)              (empty)
+02   101 (empty)              MONI 610             (empty)              (empty)
+03   100 (empty)              Calc Result          Calc Result          (empty)
+04   011 (empty)              (empty)              IEC Semiauto         (empty)
+05   010 (empty)              (empty)              (empty)              (empty)
+06   001 (empty)              (empty)              (empty)              (empty)
+07   000 Diagnostics          (empty)              (empty)              (empty)
